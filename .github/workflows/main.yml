@@ -10,9 +10,9 @@ jobs:
         node-version: [20.x]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
       - name: npm install and build
@@ -30,6 +30,6 @@ jobs:
         with:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_ACCESS_KEY_SECRET }}
-          aws_region: eu-west-1
-          function_name: my-function
+          aws_region: us-west-1
+          function_name: char-gen
           zip_file: bundle.zip
