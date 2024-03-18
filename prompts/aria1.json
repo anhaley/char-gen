@@ -1,0 +1,38 @@
+{
+    "name": "Aria Ravencroft",
+    "level": 10,
+    "race": "Human",
+    "class": "Fighter",
+    "subclass": "Champion",
+    "abilityScores": {
+        "strength": 16,
+        "dexterity": 14,
+        "constitution": 14,
+        "intelligence": 10,
+        "wisdom": 12,
+        "charisma": 10
+    },
+    "savingThrows": ["strength", "constitution"],
+    "skillProficiencies": ["athletics", "perception", "intimidation", "acrobatics"],
+    "weapons": {
+        "ranged": {
+            "name": "longbow",
+            "attackBonus": 8,
+            "damage": "1d8+2"
+        },
+        "melee": {
+            "name": "greatsword",
+            "attackBonus": 8,
+            "damage": "2d6+3"
+        }
+    },
+    "backstory": "Aria Ravencroft, a skilled swordswoman from a small village, was often jeered for her ambition to become a renowned knight. Determined to prove her worth, she set off into the world to follow her dream, training rigorously for glory on the battlefield.",
+    "racialFeatures": {
+        "Ability Score Increase": "As a Human, Aria gains +1 to all ability scores. She also gains an additional skill proficiency."
+    },
+    "classFeatures": {
+        "Second Wind": "(Level 1) As a bonus action, Aria can regain 1d10+10 hit points.",
+        "Action Surge": "(Level 2) Once per short rest, Aria can take an additional Action on her turn.",
+        "Fighting Style": "(Level 2) Aria has selected the Great Weapon Fighting style, allowing her to reroll 1s and 2s on damage dice when using two-handed weapons."
+    }
+}
