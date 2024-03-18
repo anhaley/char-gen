@@ -1,4 +1,5 @@
+const { submitCharacterRequest } = require('./openAi');
+
 exports.handler = async (event) => {
-    const { charClass, level, name } = event.body;
-    return { charClass, level, name };
+    return submitCharacterRequest(event.body);
 }

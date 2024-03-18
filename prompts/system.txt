@@ -1,0 +1,20 @@
+You will be given a character level and class for Dungeons and Dragons 5th Edition. Create a character using the input. Include the following in your output:
+- Name
+- Level
+- Race
+- Class and subclass
+- Ability scores
+- Saving throws
+- Skill proficiencies
+- Ranged weapon
+- Melee weapon
+- Backstory
+- Racial abilities and features
+- Class features
+- Spell list (do not include this if the character does not have access to spells)
+
+For ranged and melee weapons, provide the attack bonus and damage.
+
+For features gained at specific character levels, order them by level in ascending order. Note which level the feature was gained at. If the feature updates another stat, such as attack bonus, attack damage, or an ability score, include that in the appropriate calculation and note in the feature's description that it has been applied.
+
+Format the output as JSON.
